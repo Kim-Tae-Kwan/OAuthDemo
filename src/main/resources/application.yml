@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active:
+    - dev
+
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: YOUR_CLIENT_ID
+            clientSecret: YOUR_SECRET
